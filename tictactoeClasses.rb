@@ -119,25 +119,25 @@ class TicTacToe
 			helper = turn ? 1 : 2
 			puts
 			puts "------------------"
-			puts "Turno jugador #{helper}: "
+			puts "Player #{helper}: you are up!"
 			puts "------------------"
 			move = gets.to_i
 			if @board.validate?(move)
 				@board.update_board(turn, move)
 			else
 				while @board.validate?(move) == false
-					puts "Ese espacio ya fue utilizada o esta utilizando un comando incorrecto ingrese de nuevo un comando"
+					puts "The command you are trying to use is invalid or the cell that you want to use is occupied already"
 					move = gets.to_i
 				end
 				@board.update_board(turn, move)
 			end
 			if @board.conditions_for_winning == false
-				puts "El Ganador es el Jugador #{helper}!"
-				puts "¡Congratulations #{@player.get_name (turn)}!"
+				puts "The winner is player #{helper}!"
+				puts "¡Congratulations #{@player.get_name(turn)}!"
 				game_on = false
 
 			end
-			puts "Fue un empate" if game_on && count ==  9
+			puts "It was a tie" if game_on && count ==  9
 			turn = !turn
 			@board.display_board
 		end
