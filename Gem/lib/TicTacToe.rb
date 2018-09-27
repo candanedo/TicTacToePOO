@@ -5,3 +5,5 @@ class Game
                 @ttt.play
         end
 end
+game = Game.new
+game.start
