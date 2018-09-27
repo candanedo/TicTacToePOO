@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'TicTacToe'
-  s.version     = '1.0.0'
-  s.date        = '2018-09-25'
+  s.version     = '1.0.1'
+  s.date        = '2018-09-27'
   s.summary     = "TicTacToe Game!"
   s.description = "A simple tictactoe gem"
   s.authors     = ["Eduardo Javier Candanedo Contreras"]
