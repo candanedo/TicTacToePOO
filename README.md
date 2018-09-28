@@ -4,7 +4,7 @@ This is the TicTacToe game using different classes for each object involve in th
 
 Tic-tac-toe (also known as noughts and crosses or Xs and Os) is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.The following example game is won by the first player, XFor this particular task we are going to code the program that simulates the game on ruby language, basically following the rules explain previously and also adding the option to ask the player´s name. 
 Furthermore, we will also make sure that the program validates the input of the user, that way we can prevent the game from crashing. The grid will be displayed on the terminal.
-First clone the repository containing the program, and some other files that will be explain after. We can do so by accessing the following link: https://github.com/candanedo/TicTacToePOO
+First clone the repository containing the program, and some other files that will be explain after.
 Once you had cloned the repository you can locate either of these files: 
 tictactoeClasses.rb OR TicTacToe_classes_dif_files/exec.rb By running any of these files you`ll be able to play the Tic Tac Toe game.
 The program will ask for your name and your oponent´s name, then for the first move from player one who is the X symbol, then the other one; until some one wins or there is a tie.
